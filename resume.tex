@@ -52,69 +52,43 @@
 % to typeset your resume in Chinese using CJK
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
-
 %\section{Languages}
 %\cvitemwithcomment{Language 1}{Skill level}{Comment}
 %\cvitemwithcomment{Language 2}{Skill level}{Comment}
 %\cvitemwithcomment{Language 3}{Skill level}{Comment}
-
+\section{Education}
+\cventry{2012--2013}{Certificate, Data Science}{University of Washington}{Seattle, WA}{}{}  % arguments 3 to 6 can be left empty
+\cventry{2011--2012}{Certificate, Ruby Development}{University of Washington}{Seattle, WA}{}{}
+\cventry{2009--2010}{Master of Science, Information Studies}{Florida State University}{Tallahassee, FL}{}{}  % arguments 3 to 6 can be left empty
+\cventry{2005--2009}{Bachelor of Arts, Music and History}{Florida State University}{Tallahassee, FL}{}{}
+\section{Professional Experience}
+%\subsection{Vocational}
+\cventry{2012--Present}{Lead Developer}{LikeBright}{Seattle, WA}{}{LikeBright is a dating site that leverages Facebook data to connect people through mutual interest.
+\begin{itemize}%
+  \item Provided leadership to other developers and non-technical team members.
+\end{itemize}}
+\cventry{2011--2012}{Data Indexer}{Institute for Health Metrics and Evaluation}{Seattle, WA}{}{Technical documentation and metadata creation in support of the Global Health Data Exchange (GHDx) and IHME's other epidemiological projects.
+\begin{itemize}%
+  \item As a project for the Ruby Certificate program at UW, I developed a data visualization tool for GHDx metadata using Rails and D3.js.
+\end{itemize}}
+\cventry{2009--2010}{Graduate Assistant}{Florida State University Libraries}{Tallahassee, FL}{}{In digitization efforts of the archive’s collections, I gained an applied knowledge of simple web technologies such as HTML and CSS. }
 \section{Web Back End}
 \cvlistdoubleitem{Rails}{Sinatra}
 \cvlistdoubleitem{Node.js}{MySQL, PostGreSQL, SQLite}
 \cvlistdoubleitem{Neo4j Graph Database}{}
-
 \section{Web Front End}
 \cvlistdoubleitem{Backbone.js}{D3.js}
 \cvlistdoubleitem{jQuery}{jQueryUI}
 \cvlistdoubleitem{jQueryMobile}{Twitter Bootstrap}
-
 \section{Analysis and Machine Learning}
 \cvlistdoubleitem{R}{Weka}
-
 \section{Recent Projects}
+\cventry{}{\link[The Government Shutdown Kept Me From...]{http://www.tgsdkmf.com/}}{}{}{}{In early October 2013, I made a simple Rails app, coupled with a Twitter bot, for people to post how the shutdown of the federal government effected them.}
+\cventry{}{\link[Magneeto]{http://www.geekwire.com/2013/smart-sunglasses-intelligent-ear-plugs-badass-innovation-startup-weekend-maker-edition/}}{}{}{}{Magneeto was a winning team at the first ever Maker Edition of Startup Weeekend. In a single weekend, our team demonstrated a prototype of a simple, yet versatile means of personal data collection and analysis for a variety of exercise applications.}
 \cventry{}{\link[Titanic Kaggle Competition]{http://www.kaggle.com/c/titanic-gettingStarted}}{}{}{}{Entry for Kaggle competition to predict survivors of the RMS Titanic. Using R, I developed an approach using a Support Vector Machine that successfully beat the benchmark with a score of 79\%.}
 \cventry{}{\link[Hautaulogy.com]{http://www.hautaulogy.com}}{}{}{}{My blog, a Rails and Backbone.js app I made from the ground up.}
-\cventry{}{\link[The Government Shutdown Kept Me From...]{http://www.tgsdkmf.com/}}{}{}{}{In early October 2013, I made a simple Rails app, coupled with a Twitter bot, for people to post how the shutdown of the federal government effected them.}
-
-\section{Education}
-\cventry{10.2012--08.2013}{Certificate, Data Science}{University of Washington}{Seattle, WA}{}{}  % arguments 3 to 6 can be left empty
-\cventry{10.2011--06.2012}{Certificate, Ruby Development}{University of Washington}{Seattle, WA}{}{}
-\cventry{08.2009--08.2010}{Master of Science, Information Studies}{Florida State University}{Tallahassee, FL}{}{}  % arguments 3 to 6 can be left empty
-\cventry{08.2005--05.2009}{Bachelor of Arts, Music and History}{Florida State University}{Tallahassee, FL}{}{}
-
-\section{Experience}
-%\subsection{Vocational}
-\cventry{07.2012--Present}{Developer}{LikeBright}{Seattle, WA}{}{LikeBright is a dating site that leverages Facebook data to connect people through mutual interest.
-\begin{itemize}%
-  \item Lead development of new features in the entire codebase.
-  \item Provided leadership to other developers and non-technical team members alike.
-\end{itemize}}
-\cventry{06.2013}{Developer}{Magneeto}{Seattle, WA}{}{Magneeto was a winning team at the first ever Maker Edition of Startup Weeekend. In a single weekend, our team demonstrated a prototype of a simple, yet versatile means of personal data collection and analysis for a variety of exercise applications.\newline{}%
-Detailed achievements:%
-\begin{itemize}%
-  \item Lead development of demonstration application.
-  \item Working together with product and hardware leads, ensured a successful, winning demo of the product.
-    %\begin{itemize}%
-      %\item Sub-achievement (a);
-      %\item Sub-achievement (b), with sub-sub-achievements (don't do this!);
-      %\begin{itemize}
-        %\item Sub-sub-achievement i;
-        %\item Sub-sub-achievement ii;
-        %\item Sub-sub-achievement iii;
-      %\end{itemize}
-      %\item Sub-achievement (c);
-    %\end{itemize}
-  %\item Achievement 3.
-\end{itemize}}
-\cventry{07.2011--07.2012}{Data Indexer}{Institute for Health Metrics and Evaluation}{Seattle, WA}{}{Technical documentation and metadata creation in support of the Global Health Data Exchange (GHDx), as well as IHME's many epidemiological projects.
-\begin{itemize}%
-  \item As a project for Ruby Certificate program at UW, I developed a data visualization tool for GHDx metadata using Rails and D3.js, a javascript data visualization library.
-\end{itemize}}
-\cventry{08.2009--08.2010}{Graduate Assistant}{Florida State University Libraries}{Tallahassee, FL}{}{During this assistantship, I gained an applied knowledge of simple web technologies such as HTML and CSS. Most of my responsibilities involved digitization efforts of the archive’s collections.}
-
 \section{Personal Interests}
 \cvitem{}{Music (pricinpal instrument saxophone, also enjoys guitar and keyboard), Rock climbing (bouldering, top roping, lead), traveling, reading}
-
 \section{References}
 \cvitem{}{Available upon request.}
 %\begin{cvcolumns}
@@ -163,6 +137,4 @@ Detailed achievements:%
 
 %\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
-
-
 %% end of file `template.tex'.
