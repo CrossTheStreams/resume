@@ -18,6 +18,8 @@
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
+\usepackage{setspace}
+
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
@@ -57,10 +59,12 @@
 %\cvitemwithcomment{Language 2}{Skill level}{Comment}
 %\cvitemwithcomment{Language 3}{Skill level}{Comment}
 \section{Education}
+\begin{spacing}{1.5} 
 \cventry{2012--2013}{Certificate, Data Science}{University of Washington}{Seattle, WA}{}{}  % arguments 3 to 6 can be left empty
 \cventry{2011--2012}{Certificate, Ruby Development}{University of Washington}{Seattle, WA}{}{}
 \cventry{2009--2010}{Master of Science, Information Studies}{Florida State University}{Tallahassee, FL}{}{}  % arguments 3 to 6 can be left empty
 \cventry{2005--2009}{Bachelor of Arts, Music and History}{Florida State University}{Tallahassee, FL}{}{}
+\end{spacing}
 \section{Professional Experience}
 %\subsection{Vocational}
 \cventry{2012--Present}{Lead Developer}{LikeBright}{Seattle, WA}{}{LikeBright is a dating site that leverages Facebook data to connect people through mutual interest.
@@ -77,16 +81,22 @@
 \cventry{}{\link[Magneeto]{http://www.geekwire.com/2013/smart-sunglasses-intelligent-ear-plugs-badass-innovation-startup-weekend-maker-edition/}}{}{}{}{Magneeto was the winning team at the first ever Maker Edition of Startup Weekend. Our team demonstrated a prototype of a versatile means of personal data collection and analysis for physical exercise. I lead our team in development of the consumer software interface.}
 \cventry{}{\link[Titanic Kaggle Competition]{http://www.kaggle.com/c/titanic-gettingStarted}}{}{}{}{I submitted an entry for a Kaggle competition to predict survivors of the RMS Titanic. Using R, I developed an approach using a Support Vector Machine that successfully beat the benchmark with a score of 79\%.}
 \cventry{}{\link[Hautaulogy.com]{http://www.hautaulogy.com}}{}{}{}{My blog, a Rails and Backbone.js app I made from the ground up.}
-\section{Web Back End}
+\section{Skills}
+\begin{spacing}{1.5} 
+\cventry{}{Backend}{}{}{}{}{
 \cvlistdoubleitem{Rails}{Sinatra}
 \cvlistdoubleitem{Node.js}{MySQL, PostGreSQL, SQLite}
 \cvlistdoubleitem{Neo4j Graph Database}{}
-\section{Web Front End}
+}
+\cventry{}{Web Front End}{}{}{}{}{
 \cvlistdoubleitem{Backbone.js}{D3.js}
 \cvlistdoubleitem{jQuery}{jQueryUI}
 \cvlistdoubleitem{jQueryMobile}{Twitter Bootstrap}
-\section{Analysis and Machine Learning}
+}
+\cventry{}{Analysis and Machine Learning}{}{}{}{}{
 \cvlistdoubleitem{R}{Weka}
+}
+\end{spacing}
 \section{Personal Interests}
 \cvitem{}{Music (pricinpal instrument saxophone, also enjoys guitar and keyboard), Rock climbing (bouldering, top roping, lead), traveling, reading}
 \section{References}
