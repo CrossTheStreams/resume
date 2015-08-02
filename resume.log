@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  2 AUG 2015 14:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  2 AUG 2015 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -945,13 +945,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-[2]
+
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
+[2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
-[3]
+ [3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
  (./resume.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
@@ -960,13 +961,13 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: E671D0118D1736ABADCA25FA0BBDC37A;672.
  ) 
 Here is how much of TeX's memory you used:
- 17127 strings out of 493315
- 273852 string characters out of 6137904
+ 17121 strings out of 493315
+ 273782 string characters out of 6137904
  373959 words of memory out of 5000000
  20295 multiletter control sequences out of 15000+600000
- 52861 words of font info for 68 fonts, out of 8000000 for 9000
+ 52558 words of font info for 65 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,12n,45p,772b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,12n,45p,772b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2013/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/20
 13/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2013/texmf-d
@@ -974,7 +975,7 @@ ist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2013/texmf-dist/fonts/
 type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
 blic/lm/lmsso10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/marv
 osym/marvosym.pfb>
-Output written on resume.pdf (3 pages, 127391 bytes).
+Output written on resume.pdf (3 pages, 126945 bytes).
 PDF statistics:
  84 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
