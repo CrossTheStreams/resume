@@ -29,7 +29,6 @@
 \name{Andrew}{Hautau}
 %\title{Resumé title}                               
 % optional, remove / comment the line if not wanted
-\address{4514 Thackeray PL NE}{Seattle, WA 98105} % optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 \phone[mobile]{206~601~0226}                   % optional, remove / comment the line if not wanted
 \email{arhautau@gmail.com}                               % optional, remove / comment the line if not wanted
 \homepage{Blog: hautaulogy.com}                         % optional, remove / comment the line if not wanted
@@ -59,7 +58,7 @@
 %\cvitemwithcomment{Language 2}{Skill level}{Comment}
 %\cvitemwithcomment{Language 3}{Skill level}{Comment}
 \section{Education}
-\begin{spacing}{2} 
+\begin{spacing}{1.5} 
 \cventry{2012--2013}{Certificate, Data Science}{University of Washington}{Seattle, WA}{}{}  % arguments 3 to 6 can be left empty
 \cventry{2011--2012}{Certificate, Ruby Development}{University of Washington}{Seattle, WA}{}{}
 \cventry{2009--2010}{Master of Science, Information Studies}{Florida State University}{Tallahassee, FL}{}{}  % arguments 3 to 6 can be left empty
@@ -67,18 +66,22 @@
 \end{spacing}
 \section{Professional Experience}
 %\subsection{Vocational}
+
+\begin{spacing}{1.5}
+\cventry{October 2014--Present}{Senior Software Engineer}{\link[Trakstar]{http://www.trakstar.com/about/}}{Seattle, WA}{}{Trakstar is platform for HR needs including performance appraisals, goal setting, and continuous feedback.
+  \begin{itemize}%
+  \item I work on the full stack of our web application to engineer features, provide support to customers, and keep our services highly available and performant. 
+  \item One of two engineers to develop a completely new dev-ops solution for Trakstar, using Chef and Serverspec.
+\end{itemize}}
 \cventry{May 2014--October 2014}{Software Developer (contract)}{\link[Whitepages]{http://www.whitepages.com/}}{Seattle, WA}{}{Whitepages is the leading provider of identity information in North America. 
 \begin{itemize}%
   \item As a developer on the Core Site team, I built and refactored application software to serve millions of active users. This primarily consisted of work on a variety of Rails web services and APIs and implementing client-side Javascript for metrics and endemics ads.
 \end{itemize}}
-\cventry{November 2013--April 2014}{Co-Founder \& CTO}{\link[bubblr]{http://www.bubblr.co/}}{Portland, OR \& Seattle, WA}{}{bubblr is a platform for sharing and discovering music geospatially, i.e. on a map. When a user shares a track (using an external content service such as SoundCloud or YouTube), it is "dropped" on the map as a "bubble". Users listen to bubbles that others have dropped nearby and curate bubbles by using a voting system.
+\cventry{November 2013--April 2014}{Co-Founder \& CTO}{\link[bubblr]{http://www.bubblr.co/}}{Portland, OR \& Seattle, WA}{}{bubblr was a platform for sharing and discovering music geospatially, i.e. on a map.
 \begin{itemize}%
   \item I oversaw all technical decisions and application development. This included development of our iOS application, web application, and Rails backend. I also assisted in product and operational responsibilities with my co-founder as needed.
-  \item On both the iOS and web applications, bubblr implements visualizations using the MapBox SDKs (Objective-C and Javascript, respectively) to highlight the music that people share with bubbles. 
-  \item Both the iOS and web applications leverage data available from the YouTube and Soundcloud JSON APIs to populate the UIs with assets and content.
-  \item On iOS, implemented animations with Core Graphics.
 \end{itemize}}
-\cventry{2012--April 2014}{Lead Developer}{\link[LikeBright]{http://www.likebright.com/}}{Seattle, WA}{}{LikeBright was a dating site that leveraged Facebook data to connect people through mutual interest.
+\cventry{2012--April 2014}{Lead Software Developer}{\link[LikeBright]{http://www.likebright.com/}}{Seattle, WA}{}{LikeBright was a dating site that leveraged Facebook data to connect people through mutual interest.
 \begin{itemize}%
   \item I provided leadership to other developers and non-technical team members in the development of product features.
 \end{itemize}}
@@ -87,22 +90,20 @@
   \item As a project for the Ruby Certificate program at UW, I developed a data visualization tool for GHDx metadata using Rails and D3.js.
 \end{itemize}}
 \cventry{2009--2010}{Graduate Assistant}{Florida State University Libraries}{Tallahassee, FL}{}{In digitization efforts of the archive’s collections, I gained an applied knowledge of HTML and CSS. }
+\hfill \break
 \section{Recent Projects}
-\cventry{}{\link[Active Record Nearest Neighbor]{https://github.com/CrossTheStreams/active_record_nearest_neighbor}}{}{}{}{ A Ruby gem and Rails plugin that provides convenience methods for highly performant nearest neighbor geospatial queries with ActiveRecord and PostGIS. }
+\cventry{}{\link[Active Record Nearest Neighbor]{https://github.com/CrossTheStreams/active_record_nearest_neighbor}}{}{}{}{ A Ruby gem and Rails plugin that provides convenience methods for nearest neighbor geospatial queries with ActiveRecord and PostGIS. }
 \cventry{}{\link[HayStack]{http://haystack-hack2end.herokuapp.com/}}{}{}{}{A data visualization of homelessness data produced by the U.S. Department of Housing and Urban Development using D3.js and the MapBox Javascript SDK. I developed the visualization in partnership with the King County Committee to End Homelessness as part of the Hack To End Homelessness event. HayStack was featured in an online article by the magazine FastCompany.}
 \cventry{}{\link[WebChess]{https://github.com/CrossTheStreams/web_chess}}{}{}{}{A work in progress as of October 2014, WebChess is a web application that uses Backbone.js and a new Ruby web framework, Lotus. In building the application with Lotus, I hope to contribute to a very young Ruby framework that takes an alternative philosophy to the very popular and established Ruby on Rails.  }
-\cventry{}{\link[HayStack]{http://haystack-hack2end.herokuapp.com/}}{}{}{}{A data visualization of homelessness data produced by the U.S. Department of Housing and Urban Development using D3.js and the MapBox Javascript SDK. I developed the visualization in partnership with the King County Committee to End Homelessness as part of the Hack To End Homelessness event. HayStack was featured in an online article by the magazine FastCompany.}
-\cventry{}{\link[Neigel Vintners]{http://www.neigelvintners.com/}}{}{}{}{A simple responsive landing page for a cider company in Wenatchee, WA.}
-\cventry{}{\link[The Government Shutdown Kept Me From...]{http://www.tgsdkmf.com/}}{}{}{}{In early October 2013, I made a simple Rails app, coupled with a Twitter bot, for people to share stories about the shutdown of the federal government.}
-\cventry{}{\link[Magneeto]{http://www.geekwire.com/2013/smart-sunglasses-intelligent-ear-plugs-badass-innovation-startup-weekend-maker-edition/}}{}{}{}{Magneeto was the winning team at the first ever Maker Edition of Startup Weekend. Our team demonstrated a prototype of a versatile means of personal data collection and analysis for physical exercise. I lead our team in development of the consumer software interface.}
-\cventry{}{\link[Hautaulogy.com]{http://www.hautaulogy.com}}{}{}{}{My blog, a Rails and Backbone.js app I made from the ground up.}
+\cventry{}{\link[Hautaulogy.com]{http://www.hautaulogy.com}}{}{}{}{My blog, a simple Rails 4 app}
 \cventry{}{\link[Titanic Kaggle Competition]{http://www.kaggle.com/c/titanic-gettingStarted}}{}{}{}{I submitted an entry for a Kaggle competition to predict survivors of the RMS Titanic. Using R, I developed an approach using a Support Vector Machine that successfully beat the benchmark with a score of 79\%.}
+\end{spacing}
+\hfill \break
 \section{Skills}
 \begin{spacing}{2} 
 \cventry{}{Backend}{}{}{}{}{
 \cvlistdoubleitem{Rails}{Sinatra}
 \cvlistdoubleitem{Node.js}{MySQL, PostGreSQL, SQLite}
-\cvlistdoubleitem{Neo4j Graph Database}{}
 }
 \cventry{}{Mobile}{}{}{}{}{
 \cvlistdoubleitem{iOS}{}
